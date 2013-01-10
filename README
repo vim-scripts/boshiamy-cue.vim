@@ -1,0 +1,8 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4392
+
+Utilities for learning Boshiamy input method in traditional Chinese on vim and emacs.
+將boshiamy-cue.vim放在你的plugin目錄下。我使用WINDOWS，我就將這個檔案放在"C:\Program Files (x86)\Vim\vim73\plugin"。按F3可以在VIM下顯示蝦米碼。
+將boshiamy.vim放在你vim的keymap目錄下。執行
+:set keymap=boshiamy
+你就可以在vim下使用蝦米輸入，<Ctrl-^>可以切換中英輸入模式。
+這個方法的唯一毛病就是如果同一個蝦米碼有兩個以上的選擇，你不能看到選擇。在注音輸法下，這可能會有問題，但蝦米輸入大致上不會有問題。我這篇介紹就是這樣打的。
